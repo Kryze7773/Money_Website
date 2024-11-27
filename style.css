@@ -1,10 +1,11 @@
 /* Basic styling for the page */
 body {
-	background-color: #cccccc;
+	font-family: 'Rubik Spray Paint', sans-serif;
+	font-weight: 700;
+	background-color: #f0f8ff;
 	color: #333;
-	font-family: 'Arial', sans-serif;
 	margin: 0;
-	padding: 15px;
+	padding: 20px;
 	text-align: center;
 }
 
