@@ -9,6 +9,13 @@ body {
 	text-align: center;
 }
 
+/*Stuff for the custom font*/
+.rubik-spray-paint-regular {
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Styling the heading */
 h1 {
 	color: #005f73;
