@@ -1,13 +1,18 @@
-/* Basic styling for the page */
+/*for ghostmeat font*/
+@font-face {
+ font-family: 'MyCustomFont'; /* Name you will use in your styles */
+ src: url('Ghostmeat.otf') format('opentype');
+ font-weight: normal; /* You can define different weights if needed */
+ font-style: normal;  /* Or italic if it's an italic font */
+}
+
+/* Basic styling for the page + fallback font?*/
 body {
 	font-family: 'Rubik Spray Paint', sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	background-color: #cccccc;
-	color: #ffffff;
-	margin: 0;
-	padding: 25px;
+	margin: 40px;
 	text-align: center;
+	background-color: #f0f8ff;
+	color: #333;
 }
 
 /* Styling the heading */
