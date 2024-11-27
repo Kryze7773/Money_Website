@@ -1,9 +1,11 @@
 /*for ghostmeat font*/
 @font-face {
- font-family: 'Ghostmeat';
- src: url('Ghostmeat.otf') format('opentype');
- font-weight: normal;
- font-style: normal;
+	font-family: 'Ghostmeat';
+	src: url('Ghostmeat.woff2') format('woff2'),
+	     url('Ghostmeat.woff') format('woff'),
+	     url('Ghostmeat.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Basic styling for the page + fallback font?*/
