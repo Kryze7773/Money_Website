@@ -1,42 +1,63 @@
-/*for ghostmeat font*/
-@font-face {
-	font-family: 'Ghostmeat';
-	src: url('Ghostmeat.woff2') format('woff2'),
-	     url('Ghostmeat.woff') format('woff'),
-	     url('Ghostmeat.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-/* Basic styling for the page + fallback font?*/
 body {
-	font-family: 'Ghostmeat', sans-serif;
-	margin: 40px;
+	margin: 0;
+	font-family: 'DM Serif Text', serif;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+.title-banner {
+	background-color: #2e8b57;
+	color: white;
+	padding: 20px;
 	text-align: center;
-	background-color: #ffffff;
-	color: #cccccc;
 }
 
-/* Styling the heading */
-h1 {
-	color: #000000;
-	font-size: 3rem;
-	margin-bottom: 20px;
+.title-banner h1 {
+	font-size: 3em;
+	margin: 0;
 }
 
-/* Styling the paragraph */
-p {
-	font-size: 1.2rem;
-	line-height: 1.6;
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	background-color: #dcdcdc;
 }
 
-/* Add hover effect for links */
-a {
-	color: #0077b6;
+.hero-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.product-gallery {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 20px;
+	padding: 20px;
+}
+
+.product {
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+}
+
+.product img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.affiliate-link {
+	display: block;
+	margin-top: 10px;
+	color: #2e8b57;
 	text-decoration: none;
+	font-weight: bold;
 }
 
-a:hover {
-	text-decoration: underline;
-	color: #023e8a;
+.affiliate-link:hover {
+	color: #ff4500;
 }
